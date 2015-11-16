@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/bootstrap.css"> 
+
+	<!-- // <script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-2.1.1.js"></script>
+	<!--<script src="js/main.js"></script>  Resource jQuery -->
+	<script src="js/principal.js"></script>
+  	
+	<title>Intranet Los leones</title>
+</head>
+<body style="background-color: #F2F2F2;">
+	<div class="content">
+		<div class="row text-center">
+			<a href="menu.html">
+			<div class="col-sm-12 text-center header">
+				<img src="img/bloque_azul.png" class="img-edit" alt="item">
+			</div>
+			<div class="header-text" style="top:30px;right:20%;">
+				<p>CONTACTOS</p>
+			</div>
+			</a>
+		</div>
+
+		<div class="container" style="font-size: 18px; padding-top:40px;">
+			<form class="form-horizontal" role="form">
+				<div class="form-group" style="margin-bottom: 2px;">
+				<div class="control-label col-xs-3" for="carrera">Carrera</div>
+					<div class="col-xs-9">
+						<select name="carrera" id="carrera" class="contact-select" >
+							<option value="" selected="selected">Selecciona la carrera...</option>
+							<option value="5" > Ingeniería en Administración de Negocios y Gestión Comercial </option>
+							<option value="19" > Técnico en Construcción </option>
+							<option value="23" > Técnico en Gestión de Empresas </option>
+							<option value="29" > Técnico en Publicidad</option>
+							<option value="12" >Analista Programador</option>
+							<option value="36" >Asistente Ejecutivo y de Gestión</option>
+							<option value="38" >Construcción Civil</option>
+							<option value="1" >Contador Auditor</option>
+							<option value="13" >Contador General</option>
+							<option value="2" >Diseño Gráfico Publicitario</option>
+							<option value="4" >Fotografía Periodística y Publicitaria Profesional</option>
+							<option value="6" >Ingeniería en Marketing</option>
+							<option value="35" >Laboratorista Dental</option>
+							<option value="14" >Masoterapia</option>
+							<option value="15" >Monitor Teatral </option>
+							<option value="16" >Producción de Eventos </option>
+							<option value="7" >Psicopedagogía</option>
+							<option value="8" >Publicidad</option>
+							<option value="9" >Relaciones Públicas</option>
+							<option value="46" >Servicio Social</option>
+							<option value="24" >Técnico  en Hotelería </option>
+							<option value="22" >Técnico en  Fotografía Periodística y Publicitaria </option>
+							<option value="40" >Técnico en Administración de Recursos Humanos</option>
+							<option value="42" >Técnico en Comercio Exterior</option>
+							<option value="17" >Técnico en Conectividad y Redes</option>
+							<option value="20" >Técnico en Diseño Gráfico Publicitario </option>
+							<option value="39" >Técnico en Educación Diferencial</option>
+							<option value="21" >Técnico en Educación Parvularia </option>
+							<option value="45" >Técnico en Estética Integral</option>
+							<option value="41" >Técnico en Finanzas</option>
+							<option value="43" >Técnico en Geología</option>
+							<option value="25" >Técnico en Marketing</option>
+							<option value="33" >Técnico en Minería</option>
+							<option value="27" >Técnico en Negocios y Gestión Comercial </option>
+							<option value="28" >Técnico en Prevención de Riesgos</option>
+							<option value="30" >Técnico en Relaciones Públicas </option>
+							<option value="31" >Técnico en Servicio Social </option>
+							<option value="44" >Técnico en Topografía</option>
+							<option value="11" >Teatro</option>
+							<option value="37" >Turismo Sustentable</option>
+							<option value="34" >Visitador Médico</option>
+						</optgroup>
+					</select>
+					</div>
+				</div>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="pwd">Contacto</div>
+					<div class="col-xs-9">          
+						<select name="contacto" id="contacto" class="contact-select" >
+							<option value="" selected="selected">Selecciona el contacto...</option>
+							<option value="5" > DAE </option>
+							<option value="19" > Jefe de Carrera </option>
+							<option value="23" > Biblioteca </option>
+						</optgroup>
+					</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="control-label col-xs-3" for="pwd">Mensaje</div>
+					<div class="col-xs-9">          
+						<textarea id="mensaje" rows="4" placeholder="Escriba aquí su mensaje..." style="width:98%;border:none;">
+						</textarea>
+					</div>
+				</div>
+				<div class="form-group">        
+					<div class="col-xs-offset-2 col-xs-10">
+						<button class="enviar" type="submit" class="btn btn-default"></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
