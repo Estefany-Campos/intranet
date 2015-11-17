@@ -97,3 +97,21 @@ function readURL(input) {
 
     }
 }
+function transicion(){
+	setTimeout(function(){ 
+		$('body').fadeOut('fast', function(){
+            location.replace("nexo.html")
+        });
+			 
+		}
+		, 3000);
+}
+
+function transicion2(){
+	setTimeout(function(){ 
+		$('body').fadeOut('fast', function(){
+			location.replace("login.html") 
+		});	
+		}
+		, 3000);
+}

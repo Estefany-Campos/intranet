@@ -165,10 +165,17 @@ font-size: 18px;
   border:none;
 }
 
+.entrar{
+  background: url(../img/entrar.png) no-repeat;
+  background-size: 85px;
+  width: 90px;
+  height: 20px;
+  border:none;
+}
+
 .submit-btn{
-    bottom: 0px !important;
-    position: absolute !important;
-    left: 35%;
+    margin-top: 65px;
+    margin-left: 70px !important;
 }
 
 /*.enviar{
