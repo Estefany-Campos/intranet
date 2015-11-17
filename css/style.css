@@ -70,7 +70,7 @@ font-size: 18px;
 }
 
 .img-edit{
-  height: 100%;
+  /*height: 100%;*/
   position: absolute;
 }
 
@@ -99,7 +99,7 @@ font-size: 18px;
 .header{
   position: relative;
   top: 0px !important;
-  height: 120px;
+  height: 90px;
 }
 
 .noticia{
@@ -156,12 +156,26 @@ font-size: 18px;
 
 
 .enviar{
-  background: url(../img/entrar.png) no-repeat;
+  background: url(../img/enviar.png) no-repeat;
   background-size: 85px;
   width: 90px;
   height: 20px;
   border:none;
 }
+
+.submit-btn{
+    bottom: 0px !important;
+    position: absolute !important;
+    left: 35%;
+}
+
+/*.enviar{
+  background: url(../img/enviar.png) no-repeat;
+  background-size: 85px;
+  width: 90px;
+  height: 20px;
+  border:none;
+}*/
 
 .contact-select{
   height:35px; 
@@ -204,6 +218,49 @@ font-size: 18px;
 
 .perfil{
   padding-top: 0px;
+}
+
+/*div.upload {
+position: relative;
+width: 80px;
+height: 24px;
+overflow:hidden;
+clip:rect(0px, 80px, 24px, 0px );
+}
+ 
+div.upload input {
+position: absolute;
+left: auto;
+right: 0px;
+top: 0px;
+margin:0;
+padding:0;
+filter: Alpha(Opacity=0);
+-moz-opacity: 0;
+opacity: 0;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+img.change-image{
+    width: 40px;
+    height: 40px;
+}
+
+
+div.image-upload{
+    position: absolute;
+    right:20px;
+    top: 20px;
+    z-index: 100000;
+}*/
+
+.image-upload > input
+{
+    display: none !important;
 }
 
 

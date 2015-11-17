@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+<!-- 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'> -->
 	<!-- <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/bootstrap.css"> 
@@ -22,26 +22,50 @@
 		<div class="row text-center">
 			<a href="menu.html">
 			<div class="col-sm-12 text-center header">
-				<img src="img/bloque_azul.png" class="img-edit" alt="item">
+				<img src="img/bloque_amarillo.png" class="img-edit" alt="item">
 			</div>
-			<div class="header-text" style="top:20px;right:20%;">
-				<p>CONTACTOS</p>
+			<div class="header-text" style="top:20px;right:33%;">
+				<p>PERFIL</p>
 			</div>
 			</a>
 		</div>
 
-		<div class="container" style="font-size: 18px; padding-top:40px;">
-			<form id="form-contact" class="form-horizontal" role="form" action="contacto-2.html" style="height:450px">
+		<div class="container" style="font-size: 18px;">
+			<form id="form-perfil" class="form-horizontal" role="form" action="perfil.html">
+				<div class="form-group">
+					<div class="control-label text-center" for="foto">
+		            <div class="image-upload">
+					    <label for="file-input">
+					    <div class="img-perfil" style="padding-top:20px;">
+					        <img class="img-perfil" src="img/subir.png" style="width: 190px;"/>
+					     </div>
+					    </label>
+					    <input id="file-input" type="file" accept="image/jpeg, image/png" data-src="/img"/>
+					</div>
+					</div>
+				</div>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="pwd">Nombre</div>
+					<div class="col-xs-9">          
+						<input id="nombre-perfil" type="text" name="nombre-perfil" class="contact-select" value"" > 
+					</div>
+				</div>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="rut">RUT</div>
+					<div class="col-xs-9">          
+						<input id="rut-perfil" type="text" name="rut-perfil" class="contact-select" value"" > 
+					</div>
+				</div>
 				<div class="form-group" style="margin-bottom: 2px;">
 				<div class="control-label col-xs-3" for="carrera">Carrera</div>
 					<div class="col-xs-9">
-						<select name="carrera" id="carrera" class="contact-select" >
+						<select name="carrera" id="carrera-perfil" class="contact-select" >
 							<option value="" selected="selected">Selecciona la carrera...</option>
 							<option value="Ingeniería en Administración de Negocios y Gestión Comercial" > Ingeniería en Administración de Negocios y Gestión Comercial </option>
 							<option value="Técnico en Construcción " > Técnico en Construcción </option>
 							<option value="Técnico en Gestión de Empresas" > Técnico en Gestión de Empresas </option>
 							<option value="Técnico en Publicidad" > Técnico en Publicidad</option>
-							<option value="Analista Programador" >Analista Programador</option>
+							<option value="Anali sta Programador" >Analista Programador</option>
 							<option value="Asistente Ejecutivo y de Gestión" >Asistente Ejecutivo y de Gestión</option>
 							<option value="Construcción Civil" >Construcción Civil</option>
 							<option value="Contador Auditor" >Contador Auditor</option>
@@ -83,26 +107,54 @@
 					</div>
 				</div>
 				<div class="form-group" style="margin-bottom: 2px;">
-					<div class="control-label col-xs-3" for="pwd">Contacto</div>
+					<div class="control-label col-xs-3" for="seccion">Sección</div>
 					<div class="col-xs-9">          
-						<select name="contacto" id="contacto" class="contact-select" >
-							<option value="" selected="selected">Selecciona el contacto...</option>
-							<option value="DAE" > DAE </option>
-							<option value="Jefe de Carrera" > Jefe de Carrera </option>
-							<option value="Biblioteca" > Biblioteca </option>
+						<select name="seccion" id="seccion" class="contact-select" >
+							<option value="" selected="selected">Selecciona una sección...</option>
+							<option value="Sección 1" > Sección 1 </option>
+							<option value="Sección 2" >  Sección 2 </option>
+							<option value="Sección 3" >  Sección 3  </option>
+							<option value="Sección 4" >  Sección 4  </option>
+							<option value="Sección 5" >  Sección 5  </option>
+							<option value="Sección 6" >  Sección 6  </option>
 						</optgroup>
 					</select>
 					</div>
 				</div>
-				<div class="form-group">
-					<div class="control-label col-xs-3" for="pwd">Mensaje</div>
-					<div class="col-xs-9">          
-						<textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba aquí su mensaje..." style="width:98%;border:none;">
-						</textarea>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="seccion">Nivel</div>
+					<div class="col-xs-9">
+						<select name="nivel" id="nivel" class="contact-select" >
+							<option value="" selected="selected">Selecciona un nivel...</option>
+							<option value="Nivel I" > Nivel I </option>
+							<option value="Nivel II" >  Nivel II </option>
+							<option value="Nivel III" >  Nivel III  </option>
+							<option value="Nivel IV" >  Nivel IV  </option>
+							<option value="Nivel V" >  Nivel V  </option>
+						</optgroup>
+					</select>
 					</div>
 				</div>
-				<div class="form-group">        
-					<div class="submit-btn" >
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="direccion">Dirección</div>
+					<div class="col-xs-9">          
+						<input id="direccion" type="text" name="direccion" class="contact-select" value"" > 
+					</div>
+				</div>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="comuna">Comuna</div>
+					<div class="col-xs-9">          
+						<input id="comuna" type="text" name="comuna" class="contact-select" value"" > 
+					</div>
+				</div>
+				<div class="form-group" style="margin-bottom: 2px;">
+					<div class="control-label col-xs-3" for="comuna">Emergencia</div>
+					<div class="col-xs-9">          
+						<input id="numero-e" type="text" name="numero-e" class="contact-select" value"" > 
+					</div>
+				</div>
+				<div class="form-group submit-btn">        
+					<div class="col-xs-offset-2 col-xs-10">
 						<button class="enviar" type="submit" class="btn btn-default"></button>
 					</div>
 				</div>
