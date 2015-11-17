@@ -56,17 +56,19 @@ font-size: 18px;
 }
 
 .menu{
-  height: 145px !important;
+  height: 131px !important;
   position: relative;
 }
 
 .content-menu{
-  height: 700px !important;
+    height: auto;
+    width: 359px;
+    margin-left: 10px;
 }
 
 .nexo{
-  height: 70px !important;
-  width: 160px  !important;
+  /*height: 70px !important;*/
+  width: 115px !important;
 }
 
 .img-edit{
@@ -75,9 +77,9 @@ font-size: 18px;
 }
 
 .menu.logo{
-  padding: 20px;
-  background-color: #F2F2F2;
-  height:110px !important;
+    padding: 22px;
+    background-color: #F2F2F2;
+    height: 100px !important;
 }
 
 .menu-text{
@@ -263,6 +265,12 @@ div.image-upload{
     display: none !important;
 }
 
+.logo-flecha{
+    position: absolute !important;
+    z-index: 1 !important;
+    width: 61px;
+    padding-top: 15px;
+}
 
 /* -------------------------------- 
 
